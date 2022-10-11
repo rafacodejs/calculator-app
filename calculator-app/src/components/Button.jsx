@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+
 import style from '../styles/index';
 import { CalcContext } from '../Context/CalcContext';
 
@@ -90,9 +91,9 @@ const Button = ({ value }) => {
   const handleBtnClick = () => {
     const results = {
       '.': commaClick,
-      'C': resetClick,
+      C: resetClick,
       '/': signClick,
-      'x': signClick,
+      x: signClick,
       '-': signClick,
       '+': signClick,
       '=': equalsClick,
